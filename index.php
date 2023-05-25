@@ -7,6 +7,19 @@
     <title>Document</title>
 </head>
 <body>
+
+ <form>
+        idade
+       <div class="row">
+        <div class="col-6 mx-auto">
+        <input name ="idade" class="form-control" placeholder="idade" aria-label="Nome" aria-describedby="basic-addon1">>
+        </div>
+        </div>
+
+        <button type="submit" class="btn btn-outline-info">Salvar tudo</button>
+    </form>
+
+
     <?php
 
 //operadores racionais
@@ -34,7 +47,9 @@ if else if
 */
 
 
-$idade = 17;
+
+
+$idade = $_GET["idade"];
 if ($idade >= 18){
     echo "maior de idade"; //verdadeiro
 }
