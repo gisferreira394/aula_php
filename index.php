@@ -22,6 +22,31 @@ echo (10<=10)  . "true<br>"; //menor ou igual
 echo (10 ==10 && 10 >5) . "true <br>"; //Operador E
 echo (10 == 10 || 10> 5)  . "True <br>"; //Operador ou
 echo (!false) . "False <br>"; // operador não
+
+
+
+//operador ternário
+echo "<h1>Estrutura de decisão</h1>";
+/*
+if 
+if else
+if else if
+*/
+
+
+$idade = 17;
+if ($idade >= 18){
+    echo "maior de idade"; //verdadeiro
+}
+
+else if($idade ==17){
+    echo "Volte ano que vem";
+}
+
+
+else{
+    echo "Menor de idade"; //falso
+}
 ?>
 
 
